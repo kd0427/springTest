@@ -25,5 +25,12 @@ public class NoticeController {
 		model.addAttribute("list", list);
 		
 		return "/client/notice/list";
+		
+	}
+	
+	@RequestMapping("reg")
+	public String reg() {
+		
+		return "/client/notice/reg";
 	}
 }
